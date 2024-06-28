@@ -6,9 +6,6 @@
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -25,14 +22,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+-Create Resources 
+-Observe ICMP Traffic 
+-Observe SSH Traffic
+-Observe DHCP Traffic
+-Observe RDP Traffic
 
 <h2>Actions and Observations</h2>
 
 <p>
+Resource Groups, similar to a file system, are logical collections of virtual machines, storage accounts, virtual networks, web apps, databases, and/or database servers. Virtual Machines (VM) make it easier to scale your applications by adding more physical or virtual servers, distributing the workload across multiple VMs. We created two Virtual Machines (pictured below) with different Operating Systems (Windows 10 21H2 & Linux Ubuntu Server 20.04) to be used for Remote Desktop and to observe network traffic between the two devices.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
